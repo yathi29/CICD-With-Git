@@ -21,7 +21,7 @@ jobs:
 
     steps:
     - name: Checkout develop
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
     - name: Build and deploy with Maven
       run: mvn clean -B package deploy -DmuleDeploy -s .maven/settings.xml
       env:
