@@ -18,5 +18,6 @@ output application/json
 "Checking CICD with Github actions"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="f461355c-46e0-454a-b142-46f0412b884a" message="#[payload]"/>
 	</flow>
 </mule>
