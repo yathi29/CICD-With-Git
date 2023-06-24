@@ -1,0 +1,1 @@
+We need Id when we are doing upsert or update in Salesforce --   https://help.mulesoft.com/s/article/How-To-Upsert-With-Salesforce-Connector-With-Mule-4
